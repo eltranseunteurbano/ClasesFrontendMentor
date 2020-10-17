@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+  background-color: white;
+  padding: 24px;
+  box-sizing: border-box;
+
+}
+
+header {
+  background-color:pink;
+  width: 100%;
+  height: 100px;
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.cajita {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 24px;
+}
+
+aside {
+  background-color:aquamarine;
+  margin-right: 24px;
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  background-color: #00000015;
+  width: calc(100% - 30%);
+  padding:24px;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.seccion {
+  padding: 24px;
+  box-sizing: border-box;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff90;
+}
+
+.articulos {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+}
+
+.articulos > article {
+  padding: 24px;
+  box-sizing: border-box;
+  background-color:lightcoral;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.articulos > article > div {
+  padding: 24px;
+  box-sizing: border-box;
+  text-align:center;
+  font-weight: bold;
+  background-color: #ffffff90;
+  margin-bottom: 24px;
+  width: 100%
+}
+
+.articulos > article > div:last-child {
+  margin-bottom: 0;
+}
+
+.articulos > article:first-child {
+  margin-right: 12px;
+}
+
+.articulitos {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  margin-left: 12px;
+}
+
+.articulitos > article {
+  padding: 24px;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+.articulitos > article:first-child {
+  margin-bottom: 12px;
+}
+.articulitos > article:last-child {
+  margin-top: 12px;
+}
+
+.articulitos h1 {
+  margin-bottom:  0;
+}
+
+.articulitos > article:first-child {
+  background: lightgrey;
+}
+
+.articulitos > article:last-child {
+  background: lightgreen;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  background-color:cornsilk;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+main h1 {
+  margin-bottom: 24px;
+}
